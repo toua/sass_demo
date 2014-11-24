@@ -1,0 +1,23 @@
+$textColor: #444;
+$headerFont: "Times New Roman", Georgia, Serif;
+$background-color: #ff7744;
+
+@import "reset";
+@import "type";
+@import "layout";
+
+img {width:100%;}
+
+h1 {color:$textColor; font-family: $headerFont;}
+h2 {color:$textColor; font-family: $headerFont;}
+ul {color:$textColor; text-decoration: underline;}
+
+nav {
+    background-color:$background-color;
+    ul {list-style: circle;}
+}
+
+article {background-color: $background-color;
+
+    ul a {list-style: circle;color: $textColor; }
+}
